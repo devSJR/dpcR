@@ -108,7 +108,7 @@ k.tmp <- sum(results.dPCR[,2]) # 191
 n.tmp <- nrow(results.dPCR) # 379
 
 # Generate an amplification plot from the reps384 data set along with the density  
-# of the number ofpositive molecules or the average number of molecules per partition.
+# of the number of positive molecules or the average number of molecules per partition.
 par(mfrow = c(1,2))
 plot(NA, NA, xlim = c(1,45), ylim = c(0, 11000), xlab = "Cycle", ylab = "Fluo")
  rect(Cq.range[1], 0, Cq.range[2], 11000, col = "cyan")
