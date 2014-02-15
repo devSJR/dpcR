@@ -14,7 +14,7 @@ extract_dpcr(input, id)
   \item{id}{vector of indices or names of experiments or panels.}
 }
 \details{
-The \code{extract_dpcr} function allows to choose one or more panels from an object of the 
+The \code{extract_dpcr} function allows choosing one or more panels from an object of the 
 \code{\linkS4class{adpcr}} or \code{\linkS4class{ddpcr}} class and save it without changing
 other attributes. It is the most recommended method of extracting a subset from an array of
 panels, because it preserves class and structure of the object in contrary to standard operator
