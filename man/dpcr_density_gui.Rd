@@ -17,7 +17,7 @@ Michal Burdukiewicz, Stefan Roediger.
 }
 
 \section{Warning }{
-Any ad-blocking software may be cause of malfunctions. 
+Any ad-blocking software may cause of malfunctions. 
 }
 
 \seealso{
